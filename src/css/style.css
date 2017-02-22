@@ -16,13 +16,13 @@ body {
     background-attachment: fixed;   
 }
 #main-page{
-	 background-image: url(../img/background.jpg);
+	 background-image: url(../img/background4.jpg);
 }
 #service-page{
-	 background-image: url(../img/background2.jpg);
+	 background-image: url(../img/background5.jpg);
 }
 #contacts-page{
-	 background-image: url(../img/background3.jpg);
+	 background-image: url(../img/background6.jpg);
 }
 #menu{
 	position: fixed;
@@ -31,6 +31,15 @@ body {
 	right: 0;
 	height: 52px;
 	z-index: 100;
+}
+#logo li{
+	list-style-type: none;
+	margin: 0;
+	display: inline;
+}
+#logo li:first-child{
+	float: left;
+
 }
 #layout {
     height: 100%;
@@ -43,7 +52,7 @@ body {
     height: 100%;
     vertical-align: top;
     background-color: transparent;
-    padding-top: 52px;
+    padding-top: 60px;
 }
 
 #layout-content .navbar{
@@ -65,10 +74,8 @@ body {
     color: #deebed;
     padding: 5px 0;
 }
-
-#footer-nav ul {
-    list-style-type: none;
-    margin: 0;
+#navbar-collapse ul{
+    font-size: 20px;
 }
 
 #footer-nav a {
