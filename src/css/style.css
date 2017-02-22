@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+#main-page{
+	 background-image: url(../img/background.jpg);
+}
+#service-page{
+	 background-image: url(../img/background2.jpg);
+}
+#contacts-page{
+	 background-image: url(../img/background3.jpg);
+}
+#menu{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 52px;
+	z-index: 100;
+}
+#layout {
+    height: 100%;
+    width: 100%;
+    border: none;
+    min-width: 400px;
+}
+
+#layout-content {
+    height: 100%;
+    vertical-align: top;
+    background-color: transparent;
+    padding-top: 52px;
+}
+
+#layout-content .navbar{
+	background-color: #bbb;
+	border-color: #ccc;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+#layout-content .navbar a{
+	color: #deebed;
+}
+#layout-content .navbar .active a{
+	color: #2020df;
+}
+#layout-footer {
+    height: auto;
+    vertical-align: bottom;
+    background-color: #aaa;
+    color: #deebed;
+    padding: 5px 0;
+}
+
+#footer-nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+#footer-nav a {
+    color: #deebed;
+    text-decoration: underline;
+}
+.product-section{
+	margin-top: 10px;
+}
+.product-section .thumbnail {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 16px;
+}
+
+.product-section .list-group {
+    background-color: transparent;
+}
+
+.product-section .list-group-item {
+    background-color: transparent;
+    border: none;
+    font-size: 150%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.product-section .product-image{
+	min-width: 100%;
+	width: 600px;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+}
+.product-section .caption h1{
+	color: #2020df;
+}
+#contacts-page #layout-content{
+	vertical-align: middle;
+}
+.contacts{
+	max-width: 800px;
+	font-size: 250%;
+	color: #fff;
+	margin: 0 auto;
+	margin-bottom: 5em;
+}
+.contacts td:first-child{
+	text-align: right;
+	padding-right: 1em;
+}
