@@ -20,6 +20,10 @@ body {
 }
 .logo-lg a{
 	font: bold 24px Arial, Helvetica, sans-serif;
+
+}
+.logo-lg a:hover{
+	text-decoration: none;
 }
 @media (max-width: 767px){
 	.logo-lg{
@@ -66,13 +70,13 @@ body {
 }
 
 #layout-content .navbar{
-	background-color: #bbb;
-	border-color: #ccc;
+	background-color: #53b7e8;
+	border: none;	
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 }
 #layout-content .navbar a{
-	color: #deebed;
+	color: #fff;
 }
 #layout-content .navbar .active a{
 	color: #2020df;
@@ -80,12 +84,13 @@ body {
 #layout-footer {
     height: auto;
     vertical-align: bottom;
-    background-color: #aaa;
-    color: #deebed;
+    background-color: #c1c1c1;
+    color: #000;
     padding: 5px 0;
 }
 #navbar-collapse ul{
     font-size: 20px;
+    margin-left: 15%;
 }
 
 #footer-nav a {
