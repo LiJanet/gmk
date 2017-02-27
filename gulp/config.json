@@ -1,0 +1,38 @@
+{
+  "profiles":{
+    "default": {
+      "sources": {
+        "html": ["./src/**/*.html"],
+        "css": ["./src/css/**/*.css", "./src/css/**/*.scss"],
+        "js": ["./src/js/**/*.js", "!./src/js/lib/**/*.js"],
+        "lib": ["./src/js/lib/**/*.js"]
+        "res": ["./src/img/**/*"]
+      },
+      "tasks": {
+        "build:html": ["copy:html"],
+        "build:css": ["prepare:css", "process:css", "finish:css"],
+        "build:js": ["prepare:js", "process:js", "finish:js"],
+        "build:res": ["prepare:res", "process:res", "finish:res"],
+        "process:css": [],
+        "process:js": []
+      }
+    },
+    "minify": {
+      "tasks":{
+        "process:css": ["bundle:css", "minify:css"],
+        "process:js": ["bundle:js", "minify:js"]
+      }
+    },
+    "dev": {
+      "start": ["server", "watch"]
+    },
+    "dist": {
+      "start": ["rebuild"]
+    }
+  },
+  "properties": {
+    "server-port": 8080,
+    "server-cache": -1
+  },
+  "activeProfiles": ["default", "dev"]
+}
