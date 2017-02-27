@@ -1,0 +1,12 @@
+{
+  "name": "gmk",
+  "version": "0.0.1",
+  "description": "ГидроМонтажКомплект",
+  "dependencies": {
+    "require-dir": "*"
+  },
+  "devDependencies": {
+    "http-server": "*"
+  },
+  "private": true
+}
