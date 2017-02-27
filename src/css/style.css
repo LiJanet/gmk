@@ -15,8 +15,27 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;   
 }
+.logo-lg{
+	padding: 20px 0 20px 100px;
+}
+.logo-lg a{
+	font: bold 24px Arial, Helvetica, sans-serif;
+}
+@media (max-width: 767px){
+	.logo-lg{
+		display: none;
+	}
+}
+.logo-xs{
+	display: inline-block;
+}
+@media (min-width: 768px){
+	.logo-xs{
+		display: none;
+	}
+}
 #main-page{
-	 background-image: url(../img/background4.jpg);
+	 background-image: url(../img/elitefon.jpg);
 }
 #service-page{
 	 background-image: url(../img/background5.jpg);
@@ -24,23 +43,15 @@ body {
 #contacts-page{
 	 background-image: url(../img/background6.jpg);
 }
+/*
 #menu{
-	position: fixed;
 	left: 0;
 	top: 0;
 	right: 0;
 	height: 52px;
 	z-index: 100;
 }
-#logo li{
-	list-style-type: none;
-	margin: 0;
-	display: inline;
-}
-#logo li:first-child{
-	float: left;
-
-}
+*/
 #layout {
     height: 100%;
     width: 100%;
@@ -52,7 +63,6 @@ body {
     height: 100%;
     vertical-align: top;
     background-color: transparent;
-    padding-top: 60px;
 }
 
 #layout-content .navbar{
