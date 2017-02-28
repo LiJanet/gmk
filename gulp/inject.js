@@ -11,5 +11,6 @@ gulp.task('inject', function(done){
         }))
       ), { relative: false })
     .pipe(inject(gulp.src(gulp.config.paths.css, { cwd: __dirname + '/../' + gulp.config.dist, read: false }), { relative: false }))
-    .pipe(gulp.dest(gulp.config.dist));
+    .pipe(gulp.dest(gulp.config.dist))
+    .on('end', done);
 })
