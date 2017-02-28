@@ -1,0 +1,29 @@
+.product-section {
+  margin-top: 10px;
+  .thumbnail {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 16px;
+  }
+  .product-image {
+    min-width: 100%;
+    width: 600px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+  }
+  .caption {
+    h1{
+      color: #2020df;
+    }
+  }
+  .list-group {
+    background-color: transparent;
+    .list-group-item {
+      background-color: transparent;
+      border: none;
+      font-size: 150%;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+}

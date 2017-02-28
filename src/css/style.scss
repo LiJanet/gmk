@@ -1,103 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body,
-html {
-    height: 100%;
-}
-
-body {
-    background-position: 50% 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.logo-lg {
-    padding: 20px 0 20px 100px;
-}
-
-.logo-lg a {
-    font: bold 24px Arial, Helvetica, sans-serif;
-}
-
-.logo-lg a:hover {
-    text-decoration: none;
-}
-
-@media (max-width: 767px) {
-    .logo-lg {
-        display: none;
-    }
-}
-
-.logo-xs {
-    display: inline-block;
-}
-
-@media (min-width: 768px) {
-    .logo-xs {
-        display: none;
-    }
-}
-
 @media (max-width: 767px) {
     #banner-head {
         display: none;
     }
-}
-
-#main-page {
-    background-image: url(../img/elitefon.jpg);
-}
-
-#service-page {
-    background-image: url(../img/background5.jpg);
-}
-
-#contacts-page {
-    background-image: url(../img/background6.jpg);
-}
-/*
-#menu{
-	left: 0;
-	top: 0;
-	right: 0;
-	height: 52px;
-	z-index: 100;
-}
-*/
-
-#layout {
-    height: 100%;
-    width: 100%;
-    border: none;
-    min-width: 400px;
-}
-
-#layout-content {
-    height: 100%;
-    vertical-align: top;
-    background-color: transparent;
-}
-
-#layout-content .navbar {
-    background-color: #53b7e8;
-    border: none;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    margin-bottom: 0;
-}
-
-#layout-content .navbar a {
-    color: #fff;
-}
-
-#layout-content .navbar .active a {
-    color: #2020df;
 }
 
 .banner-content {
@@ -113,14 +17,6 @@ body {
     }
 }
 
-#layout-footer {
-    height: auto;
-    vertical-align: bottom;
-    background-color: #c1c1c1;
-    color: #808080;
-    padding: 5px 0;
-}
-
 #footer-nav a {
     color: #808080;
     text-decoration: underline;
@@ -132,62 +28,7 @@ body {
         float: none;
     }
 }
-
-#navbar-collapse ul {
-    font-size: 20px;
-    margin-left: 15%;
-}
   
-.product-section {
-    margin-top: 10px;
-}
-
-.product-section .thumbnail {
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
-    border-radius: 16px;
-}
-
-.product-section .list-group {
-    background-color: transparent;
-}
-
-.product-section .list-group-item {
-    background-color: transparent;
-    border: none;
-    font-size: 150%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.product-section .product-image {
-    min-width: 100%;
-    width: 600px;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-}
-
-.product-section .caption h1 {
-    color: #2020df;
-}
-
-#contacts-page #layout-content {
-    vertical-align: middle;
-}
-
-.contacts {
-    max-width: 800px;
-    font-size: 250%;
-    color: #fff;
-    margin: 0 auto;
-    margin-bottom: 5em;
-}
-
-.contacts td:first-child {
-    text-align: right;
-    padding-right: 1em;
-}
-
 .row-same-height {
     display: inline-block;
     margin-top: 20px;
@@ -206,11 +47,4 @@ body {
 
 .info-preview-content p {
     display: block;
-}
-
-#menu #banner-head .banner-head {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-    height: auto;
 }

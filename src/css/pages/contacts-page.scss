@@ -1,0 +1,19 @@
+#contacts-page {
+  background-image: url(../img/background6.jpg);
+
+  #layout-content {
+    vertical-align: middle;
+  }
+  
+  .contacts {
+    max-width: 800px;
+    font-size: 250%;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    td:first-child {
+      text-align: right;
+      padding-right: 1em;
+    }
+  }
+}
