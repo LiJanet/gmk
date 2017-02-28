@@ -16,30 +16,29 @@ body {
     background-attachment: fixed;   
 }
 #main-page{
-	 background-image: url(../img/background4.jpg);
+    background-image: url(../img/background4.jpg);
 }
 #service-page{
-	 background-image: url(../img/background5.jpg);
+    background-image: url(../img/background5.jpg);
 }
 #contacts-page{
-	 background-image: url(../img/background6.jpg);
+    background-image: url(../img/background6.jpg);
 }
 #menu{
-	position: fixed;
-	left: 0;
-	top: 0;
-	right: 0;
-	height: 52px;
-	z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 52px;
+    z-index: 100;
 }
 #logo li{
-	list-style-type: none;
-	margin: 0;
-	display: inline;
+    list-style-type: none;
+    margin: 0;
+    display: inline;
 }
 #logo li:first-child{
-	float: left;
-
+    float: left;
 }
 #layout {
     height: 100%;
@@ -53,20 +52,16 @@ body {
     vertical-align: top;
     background-color: transparent;
     padding-top: 60px;
+    .navbar{
+        background-color: #bbb;
+        border-color: #ccc;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        a{ color: #deebed; }
+        .active a{ color: #2020df; }
+    }
 }
 
-#layout-content .navbar{
-	background-color: #bbb;
-	border-color: #ccc;
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
-}
-#layout-content .navbar a{
-	color: #deebed;
-}
-#layout-content .navbar .active a{
-	color: #2020df;
-}
 #layout-footer {
     height: auto;
     vertical-align: bottom;
@@ -83,7 +78,7 @@ body {
     text-decoration: underline;
 }
 .product-section{
-	margin-top: 10px;
+    margin-top: 10px;
 }
 .product-section .thumbnail {
     background-color: rgba(255, 255, 255, 0.4);
@@ -104,25 +99,25 @@ body {
 }
 
 .product-section .product-image{
-	min-width: 100%;
-	width: 600px;
-	border-top-left-radius: 14px;
-	border-top-right-radius: 14px;
+    min-width: 100%;
+    width: 600px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
 }
 .product-section .caption h1{
-	color: #2020df;
+    color: #2020df;
 }
 #contacts-page #layout-content{
-	vertical-align: middle;
+    vertical-align: middle;
 }
 .contacts{
-	max-width: 800px;
-	font-size: 250%;
-	color: #fff;
-	margin: 0 auto;
-	margin-bottom: 5em;
+    max-width: 800px;
+    font-size: 250%;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 5em;
 }
 .contacts td:first-child{
-	text-align: right;
-	padding-right: 1em;
+    text-align: right;
+    padding-right: 1em;
 }
