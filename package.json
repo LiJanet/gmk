@@ -3,10 +3,16 @@
   "version": "0.0.1",
   "description": "ГидроМонтажКомплект",
   "dependencies": {
-    "require-dir": "*"
+    "http-server": "^0.9.0"
   },
   "devDependencies": {
-    "http-server": "*"
+    "del": "^2.2.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-sass": "^3.1.0",
+    "require-dir": "^0.3.1",
+    "run-sequence": "^1.2.2",
+    "sort-stream": "^1.0.1"
   },
   "private": true
 }
