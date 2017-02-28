@@ -1,6 +1,5 @@
 function setupConfig(gulp){
   gulp.config = readConfig(gulp.plugins['config']);
-  defineTasks(gulp);
 }
 
 function readConfig(rawConfig){
@@ -52,7 +51,7 @@ function defineTasks(gulp){
   var definedTasks = gulp.tree({
     deep: false
   }).nodes;
-  console.log(definedTasks);
+
   while(names.length > 0){
     var changed = false;
     for (var i = names.length - 1; i >= 0; --i){
@@ -71,11 +70,11 @@ function defineTasks(gulp){
       }
     }
     if(!changed)
-      throw 'cyclic or unfulfilled task dependency detected on ' + names;
+      throw 'cyclic or unfulfilled task dependency detected for tasks ' + JSON.stringify(names);
   }
 
   function noOp(done){
-    done()
+    done();
   }
   function areAllDefined(children){
     for (var i = 0; i < children.length; ++i)

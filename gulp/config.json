@@ -1,20 +1,27 @@
 {
   "profiles": {
     "default": {
-      "sources": {
-        "html": ["./src/**/*.html"],
-        "css": ["./src/css/**/*.css", "./src/css/**/*.scss"],
-        "js": ["./src/js/**/*.js", "!./src/js/lib/**/*.js"],
-        "lib": ["./src/js/lib/**/*.js"],
-        "res": ["./src/img/**/*"]
+      "src": "src",
+      "tmp": "tmp",
+      "dist": "dist",
+      "paths": {
+        "html": ["**/*.html"],
+        "css": ["css/**/*.css", "css/**/*.scss"],
+        "js": ["js/**/*.js", "!js/lib/**/*.js"],
+        "lib": ["js/lib/**/*.js"],
+        "res": ["img/**/*"]
       },
       "tasks": {
-        "build:html": ["copy:html"],
+        "build:html": ["prepare:html", "process:html", "finish:html"],
         "build:css": ["prepare:css", "process:css", "finish:css"],
         "build:js": ["prepare:js", "process:js", "finish:js"],
+        "build:lib": ["prepare:lib", "process:lib", "finish:lib"],
         "build:res": ["prepare:res", "process:res", "finish:res"],
-        "process:css": [],
-        "process:js": []
+        "process:html": [],
+        "process:css": ["compile:css"],
+        "process:js": [],
+        "process:lib": [],
+        "process:res": []
       },
       "properties": {
         "serverPort": 8080,
@@ -28,7 +35,7 @@
       }
     },
     "dev": {
-      "start": ["server", "watch"]
+      "start": ["rebuild", "server", "watch"]
     },
     "dist": {
       "start": ["rebuild"]

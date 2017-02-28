@@ -1,6 +1,7 @@
 var gulp = require('gulp');
+var del = require('del');
 
 gulp.task('clean', function(done){
-  console.log('cleaning...');
-  done();
+  del([gulp.config.tmp, gulp.config.dist])
+    .then(function(){ done(); });
 });

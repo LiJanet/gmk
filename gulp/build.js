@@ -1,7 +1,12 @@
-var gulp = require('gulp');
+function defineTasks(gulp){
+  var buildTasks = [];
+  for ( var key in gulp.config.tasks){
+    if(key.startsWith('build:'))
+      buildTasks.push(key);
+  }
+  gulp.task('build', gulp.series(gulp.parallel.apply(gulp, buildTasks), 'inject'));
+}
 
-gulp.task('build', function(done){
-  console.log('building...');
-  console.log(gulp.plugins.config);
-  done();
-});
+module.exports = {
+  defineTasks: defineTasks
+}

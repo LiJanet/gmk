@@ -4,7 +4,7 @@ var HttpServer = require('http-server').HttpServer;
 gulp.task('server', function(){
   var server = new HttpServer({
     cache: gulp.config.properties.serverCache,
-    root: './dist/'
+    root: gulp.config.dist
   });
   server.listen(gulp.config.properties.serverPort);
 });
