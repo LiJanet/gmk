@@ -1,0 +1,13 @@
+$primary-color: #3CA0D0;
+$secondary-color: #4186D3;
+$tertiary-color: #33CCCC;
+
+.product-section{
+  .product-caption{
+    background-color: $primary-color;
+    color: darken(white, 0%);
+  }
+  .product-content{
+    background-color: lighten(desaturate($secondary-color, 20%), 30%);
+  }
+}
