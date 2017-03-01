@@ -1,40 +1,50 @@
-#menu{
-  .logo-lg {
-    padding: 20px 0 20px 100px;
-    a{
-      font: bold 24px Arial, Helvetica, sans-serif;
-      text-decoration: none;
-    }
-    @media (max-width: 767px) {
-      display: none;
-    }
-  }
-  .navbar {
-      background-color: #53b7e8;
-      border: none;
-      border-top-left-radius: 0;
-      border-top-right-radius: 0;
-      margin-bottom: 0;
-      a { color: #fff; }
-      .active a{ color: #2020df; }
-      .navbar-collapse ul {
-        font-size: 20px;
-        @media (min-width: 768px){
-          margin-left: 100px;
+    #menu {
+        .logo-lg {
+            padding: 20px 0 20px 100px;
+            width: 100%;
+            a {
+                font: bold 24px Arial, Helvetica, sans-serif;
+                text-decoration: none;
+            }
+            @media (max-width: 767px) {
+                display: none;
+            }
+            .menu-tel {
+                text-align: right;
+                float: right;
+                list-style-type: none;
+                font-weight: bold;
+                padding-right: 25px;
+            }
         }
-      }
-  }
-  
-  .logo-xs {
-    display: none;
-    margin: 6px;
-    img{
-      width: 40px;
-      height: 40px;
+        .navbar {
+            background-color: #53b7e8;
+            border: none;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            margin-bottom: 0;
+            a {
+                color: #fff;
+            }
+            .active a {
+                color: #2020df;
+            }
+            .navbar-collapse ul {
+                font-size: 20px;
+                @media (min-width: 768px) {
+                    margin-left: 100px;
+                }
+            }
+            .logo-xs {
+                display: none;
+                margin: 6px;
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+                @media (max-width: 767px) {
+                    display: inline-block;
+                }
+            }
+        }
     }
-    @media (max-width: 767px) {
-      display: inline-block;
-    }
-  }
-}
-
