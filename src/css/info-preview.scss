@@ -10,6 +10,8 @@
     float: none;
     @media (max-width: 767px){
       display: block;
+      padding-left: 0;
+      padding-right: 0;
     }
   }
   .info-preview-img{
@@ -23,8 +25,7 @@
     }
     img{
       display: none;
-      min-width: 100%;
-      height: auto;
+      width: 100%;
       @media (max-width: 767px){
         display: block;
       }
