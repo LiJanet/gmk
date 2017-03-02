@@ -1,0 +1,36 @@
+.info-preview{
+  display: table;
+  width: 100%;
+  @media (max-width: 767px){
+    display: block;
+  }
+  &>div{
+    display: table-cell;
+    height: 100%;
+    float: none;
+    @media (max-width: 767px){
+      display: block;
+    }
+  }
+  .info-preview-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(http://placehold.it/600x300); /* на случай, если не задать в pages/ */
+
+    @media (max-width: 767px){
+      background-image: none !important;
+    }
+    img{
+      display: none;
+      min-width: 100%;
+      height: auto;
+      @media (max-width: 767px){
+        display: block;
+      }
+    }
+  }
+  .info-preview-content{
+    vertical-align: top;
+  }
+}

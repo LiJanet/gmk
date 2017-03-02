@@ -1,27 +1,3 @@
-@media (max-width: 767px) {
-    #banner-head {
-        display: none;
-    }
-}
-
-#banner-head img {
-    width: 100%;
-    padding-bottom: 10px;
-}
-
-.banner-content {
-    display: block;
-    text-align: center;
-    width: 100%;
-    padding: 15px 0;
-}
-
-@media (max-width: 767px) {
-    .banner-content {
-        display: none;
-    }
-}
-
 #footer-nav a {
     color: #808080;
     text-decoration: underline;
@@ -30,11 +6,4 @@
 
 #footer-nav li {
     list-style-type: none;
-}
-
-@media (min-width: 768px) {
-    .col-sm-height {
-        display: table-cell;
-        float: none;
-    }
 }

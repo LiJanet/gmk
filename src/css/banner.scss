@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+    #banner-head {
+        display: none;
+    }
+}
+
+#banner-head img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.banner-content {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+}
+
+@media (max-width: 767px) {
+    .banner-content {
+        display: none;
+    }
+}
