@@ -1,5 +1,6 @@
 {
     "id": "main-page",
+    "activeIndex": true,
     "title": "ГидроМонтажКомплект",
     "bannerHead": "/img/banner2.jpg",
     "bannerFoot": "/img/banner.footer.jpg",
