@@ -26,7 +26,8 @@
       "properties": {
         "serverPort": 8080,
         "serverCache": -1
-      }
+      },
+      "start": []
     },
     "minify": {
       "tasks": {
@@ -39,7 +40,26 @@
     },
     "dist": {
       "start": ["rebuild"]
+    },
+    "mustache": {
+      "pages": {
+        "index": "layout",
+        "service": "layout",
+        "contacts": "layout"
+      },
+      "paths": {
+        "data": ["data/**/*.json"],
+        "templates": ["templates/**/*.mustache"]
+      },
+      "tasks": {
+        "build:data": ["mustache", "finish:html"],
+        "build:templates": ["mustache", "finish:html"]
+      },
+      "properties": {
+        "dataRoot": "data",
+        "templatesRoot": "templates"
+      }
     }
   },
-  "activeProfiles": ["default", "dev"]
+  "activeProfiles": ["default", "mustache", "dev"]
 }

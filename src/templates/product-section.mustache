@@ -1,0 +1,16 @@
+<section class="product-section">
+    <div class="product-caption product-caption-xs">{{name}}</div>
+    <div class="product-wrap">
+      <div class="product-image">
+          <img src="{{{image}}}" alt="{{name}}" />
+      </div>
+      <div class="product-caption product-caption-sm">{{name}}</div>
+      <div class="product-content">
+          <ul>
+            {{#items}}
+              <li>{{{.}}}</li>
+            {{/items}}
+          </ul>
+      </div>
+    </div>
+</section>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  {{> head}}
+</head>
+<body id="{{id}}">
+    <table id="layout">
+        <tr>
+            <td id="layout-content">
+                {{> main-menu}}
+                {{#bannerHead}}
+                <div id="banner-head" class="banner"><img class="img-responsive" src="{{{.}}}" /></div>
+                {{/bannerHead}}
+                <div id="content" class="container">
+                    {{#info}}
+                      {{> info-block}}
+                    {{/info}}
+                    {{#sections}}
+                      {{> product-section}}
+                    {{/sections}}
+                </div>
+                {{#bannerFoot}}
+                <div id="banner-foot" class="banner"><img class="img-responsive" src="{{{.}}}" /></div>
+                {{/bannerFoot}}
+            </td>
+        </tr>
+        <tr>
+            <td id="layout-footer">
+                {{> footer}}
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
