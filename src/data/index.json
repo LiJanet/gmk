@@ -5,26 +5,27 @@
     "bannerHead": "/img/banner2.jpg",
     "bannerFoot": "/img/banner.footer.jpg",
     "info": {
-      "caption": "О компании",
-      "image": "http://placehold.it/600x300",
-      "text": [
-               "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex.",
-               "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex.",
-               "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex.",
-               "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex.",
-               "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex."
-               ]
+        "caption": "О компании",
+        "image": "http://placehold.it/600x300",
+        "text": [
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex.",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex.",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex.",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex.",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex."
+        ]
     },
-    "sections": [
-      {
+    "sections": [{
         "name": "Сантехника",
         "image": "http://placehold.it/300x200",
         "items": ["lorem", "ipsum", "dolor"]
-      },
-      {
+    }, {
         "name": "Метизы",
         "image": "http://placehold.it/300x200",
         "items": ["exorcum", "tatus", "lemo"]
-      }
-    ]
+    }, {
+        "name": "Вентиляционное оборудование",
+        "image": "http://placehold.it/300x200",
+        "items": ["exorcum", "tatus", "lemo"]
+    }]
 }
