@@ -1,14 +1,17 @@
-.banner{
-  width: 100%;
-  img {
-    margin: 0 auto;
-  }
+.banner {
+    width: 100%;
+    img {
+        margin: 0 auto;
+    }
 }
 
 #banner-head {
-  padding-bottom: 10px;
+    padding-bottom: 10px;
+    img {
+        width: 100%;
+    }
 }
 
-#banner-foot{
-  padding: 15px 0;
+#banner-foot {
+    padding: 15px 0;
 }
