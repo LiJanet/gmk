@@ -1,0 +1,8 @@
+<div class="contacts clearfix text-center">
+    {{#contacts}}<div class="col-sm-3">
+        <div class="contact-icon glyphicon glyphicon-{{type}}"></div>
+        {{#value}}
+        <p class="contact-text">{{.}}</p>
+        {{/value}}
+    </div>{{/contacts}}
+</div>

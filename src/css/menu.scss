@@ -1,4 +1,7 @@
 #menu {
+    /* for menu shadow */
+    position: relative;
+    z-index: 1;
     .logo-lg {
         padding: 20px 0 20px 100px;
         width: 100%;
@@ -15,16 +18,11 @@
         }
     }
     .navbar {
-        background-color: #53b7e8;
         border: none;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
+        border-radius: 0;
         margin-bottom: 0;
         a {
             color: #fff;
-        }
-        .active a {
-            color: #2020df;
         }
         .navbar-collapse ul {
             font-size: 20px;

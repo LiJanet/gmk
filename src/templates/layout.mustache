@@ -5,9 +5,11 @@
 </head>
 <body id="{{id}}">
     <table id="layout">
+     <tr>
+            <td id="layout-header">{{> main-menu}}</td>
+        </tr>
         <tr>
             <td id="layout-content">
-                {{> main-menu}}
                 {{#bannerHead}}
                 <div id="banner-head" class="banner"><img class="img-responsive" src="{{{.}}}" /></div>
                 {{/bannerHead}}

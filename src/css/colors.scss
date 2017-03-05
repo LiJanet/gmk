@@ -1,13 +1,39 @@
-$primary-color: #3CA0D0;
-$secondary-color: #4186D3;
+$primary-color: #3F92D2;
+$secondary-color: #4671D5;
 $tertiary-color: #33CCCC;
+.product-section {
+    .product-caption {
+        background-color: $primary-color;
+        color: darken(white, 0%);
+    }
+    .product-content {
+        background-color: lighten(desaturate($secondary-color, 20%), 30%);
+    }
+}
 
-.product-section{
-  .product-caption{
-    background-color: $primary-color;
-    color: darken(white, 0%);
-  }
-  .product-content{
-    background-color: lighten(desaturate($secondary-color, 20%), 30%);
-  }
+#menu {
+    box-shadow: 0px 6px 8px darken($primary-color, 20%);
+    .logo-lg a {
+        color: $primary-color;
+        &:hover {
+            color: darken($primary-color, 10%);
+        }
+    }
+    .navbar {
+        background-color: $primary-color;
+        .active a {
+            background-color: lighten($primary-color, 20%);
+            color: darken($primary-color, 20%);
+        }
+    }
+}
+
+body {
+    background-image: linear-gradient(-10deg, desaturate(lighten($tertiary-color, 40%), 40%) 0%, desaturate(lighten($primary-color, 40%), 40%) 100%);
+}
+
+.contacts {
+    .contact-icon {
+        color: saturate($primary-color, 20%);
+    }
 }
