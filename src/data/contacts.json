@@ -1,4 +1,5 @@
 {
+    "template": "contacts",
     "id": "contacts-page",
     "activeContacts": true,
     "title": "ГидроМонтажКомплект",
