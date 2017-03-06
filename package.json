@@ -10,11 +10,8 @@
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-inject": "^4.2.0",
     "gulp-mustache": "^2.3.0",
-    "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "require-dir": "^0.3.1",
-    "run-sequence": "^1.2.2",
-    "sort-stream": "^1.0.1",
     "through2": "^2.0.3",
     "vinyl-file": "^3.0.0"
   },

@@ -1,5 +1,4 @@
 var gulp = require('gulp');
-var sort = require('sort-stream');
 var inject = require('gulp-inject');
 
 gulp.task('inject', function(done){
