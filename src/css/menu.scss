@@ -8,6 +8,7 @@
         a {
             font: bold 24px Arial, Helvetica, sans-serif;
             text-decoration: none;
+            overflow: left;
         }
         @media (max-width: 767px) {
             display: none;
@@ -15,6 +16,10 @@
         .menu-tel {
             list-style-type: none;
             padding-right: 25px;
+            float: right;
+            text-align: right;
+            font-weight: bold;
+            font-size: 125%;
         }
     }
     .navbar {
