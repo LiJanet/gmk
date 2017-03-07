@@ -31,8 +31,7 @@
         },
         "minify": {
             "tasks": {
-                "process:css": ["bundle:css", "minify:css"],
-                "process:js": ["bundle:js", "minify:js"]
+                "process:css": ["bundle:css", "minify:css"]
             }
         },
         "dev": {
@@ -56,5 +55,5 @@
             }
         }
     },
-    "activeProfiles": ["default", "mustache", "dev"]
+    "activeProfiles": ["default", "mustache", "minify", "dev"]
 }
