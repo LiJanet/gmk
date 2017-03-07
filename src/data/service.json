@@ -1,4 +1,5 @@
 {
+    "template": "layout",
     "id": "service-page",
     "activeService": true,
     "title": "ГидроМонтажКомплект",

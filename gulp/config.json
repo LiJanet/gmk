@@ -42,11 +42,6 @@
             "start": ["rebuild"]
         },
         "mustache": {
-            "pages": {
-                "index": "layout",
-                "service": "layout",
-                "contacts": "contacts"
-            },
             "paths": {
                 "data": ["data/**/*.json"],
                 "templates": ["templates/**/*.mustache"]
