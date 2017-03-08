@@ -18,7 +18,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(http://placehold.it/600x300); /* на случай, если не задать в pages/ */
 
     @media (max-width: 767px){
       background-image: none !important;
