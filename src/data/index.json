@@ -7,7 +7,7 @@
     "bannerFoot": "/img/banner.footer.jpg",
     "info": {
         "caption": "О компании",
-        "image": "http://placehold.it/600x300",
+        "image": "/img/responsive2.jpg",
         "text": [
             "hello ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex.",
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex.",
@@ -18,15 +18,15 @@
     },
     "sections": [{
         "name": "Сантехника",
-        "image": "http://placehold.it/300x200",
-        "items": ["Запорная арматура", "Фитинги", "Фильтры","Насосы","Радиаторы","Сантехническая посуда"]
+        "image": "/img/Zapornaya_armatura.png",
+        "items": ["Запорная арматура", "Фитинги", "Фильтры", "Насосы", "Радиаторы", "Сантехническая посуда"]
     }, {
         "name": "Метизы",
-        "image": "http://placehold.it/300x200",
-        "items": ["Болты", "Саморезы", "Анкера","Прутки резьбовые"]
+        "image": "/img/metizy.png",
+        "items": ["Болты", "Саморезы", "Анкера", "Прутки резьбовые"]
     }, {
         "name": "Вентиляция",
-        "image": "http://placehold.it/300x200",
-        "items": ["Вентиляторы", "Приточные установки", "Кондиционеры","Воздуховоды","Вентиляционные решётки"]
+        "image": "/img/vozduhovody_kruglie.png",
+        "items": ["Вентиляторы", "Приточные установки", "Кондиционеры", "Воздуховоды", "Вентиляционные решётки"]
     }]
 }
