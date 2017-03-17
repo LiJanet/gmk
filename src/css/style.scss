@@ -7,3 +7,11 @@
 #footer-nav li {
     list-style-type: none;
 }
+
+.carousel {
+    width: 670px;
+    margin: 0 auto;
+    .item img {
+        margin: 0 auto;
+    }
+}

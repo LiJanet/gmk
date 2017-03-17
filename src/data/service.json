@@ -4,7 +4,6 @@
     "activeService": true,
     "title": "ГидроМонтажКомплект",
     "bannerHead": "/img/banner4.jpg",
-    "bannerFoot": "/img/banner.footer.jpg",
     "info": {
         "caption": "О компании",
         "image": "/img/responsive.png",
@@ -32,5 +31,29 @@
         "name": "Пусконаладка",
         "image": "/img/pyskonaladka.png",
         "items": ["exorcum", "tatus", "lemo"]
-    }]
+    }],
+    "gallery": {
+        "slides": [{
+            "src": "/img/gallery/Вивальди.jpg",
+            "alt": "Вивальди",
+            "caption": "Вивальди",
+            "index": 0,
+            "active": "active"
+        }, {
+            "src": "/img/gallery/Маяк.jpg",
+            "alt": "Маяк Минска",
+            "caption": "Маяк Минска",
+            "index": 1
+        }, {
+            "src": "/img/gallery/СОК_на_Шаранговича.jpg",
+            "alt": "СОК на Шаранговича",
+            "caption": "СОК на Шаранговича",
+            "index": 2
+        }, {
+            "src": "/img/gallery/Dreamland.jpg",
+            "alt": "Dreamland",
+            "caption": "Dreamland",
+            "index": 3
+        }]
+    }
 }
