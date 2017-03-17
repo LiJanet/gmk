@@ -9,7 +9,8 @@
 }
 
 .carousel {
-    width: 670px;
+    width: 100%;
+    max-width: 525px;
     margin: 0 auto;
     .item img {
         margin: 0 auto;

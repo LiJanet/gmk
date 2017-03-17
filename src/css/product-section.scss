@@ -1,67 +1,68 @@
 .product-section {
-  width: 100%;
-  margin: 1em 0;
-  .product-wrap{
     width: 100%;
-    display: table;
-    &>div {
-      display: table-cell;
-      vertical-align: top;
-      height: 100%;
-    }
-  }
-  .product-image {
-    text-align: center;
-    width: 33.333333%;
-    @media (max-width: 767px){
-      width: 50%;
-    }
-    img{
-      display: inline-block;
-      width: 100%;
-      vertical-align: top;
-    }
-  }
-  .product-caption {
-    font-size: 180%;
-    padding: 1em 1em 0.5em;
-    &.product-caption-xs {
-      display: none;
-      width: 100%;
-      @media (max-width: 767px){
-        display: block;
-      }
-    }
-    &.product-caption-sm {
-      width: 33.333333%;
-      @media (max-width: 767px){
-        display: none;
-      }
-    }
-  }
-  .product-content {
-    width: 33.333333%;
-    padding-left: 1em;
-    padding-top: 2em;
-    @media (max-width: 767px){
-      width: 50%;
-      padding-top: 0.5em;
-    }
-    ul {
-      background-color: transparent;
-      list-style-type: none;
-      li {
-        padding: 5px 0;
-        background-color: transparent;
-        border: none;
-        font-size: 120%;
-        &::before {
-          content: '-';
-          display: inline;
-          padding: 0 0.3em;
-          font-weight: bold;
+    margin: 1em 0;
+    .product-wrap {
+        width: 100%;
+        display: table;
+        &>div {
+            display: table-cell;
+            vertical-align: top;
+            height: 100%;
         }
-      }
     }
-  }
+    .product-image {
+        text-align: center;
+        width: 33.333333%;
+        padding-top: 0.5em;
+        @media (max-width: 767px) {
+            width: 50%;
+        }
+        img {
+            display: inline-block;
+            max-width: 100%;
+            vertical-align: top;
+        }
+    }
+    .product-caption {
+        font-size: 180%;
+        padding: 1em 1em 0.5em;
+        &.product-caption-xs {
+            display: none;
+            width: 100%;
+            @media (max-width: 767px) {
+                display: block;
+            }
+        }
+        &.product-caption-sm {
+            width: 33.333333%;
+            @media (max-width: 767px) {
+                display: none;
+            }
+        }
+    }
+    .product-content {
+        width: 33.333333%;
+        padding-left: 1em;
+        padding-top: 2em;
+        @media (max-width: 767px) {
+            width: 50%;
+            padding-top: 0.5em;
+        }
+        ul {
+            background-color: transparent;
+            list-style-type: none;
+            li {
+                padding: 5px 0;
+                background-color: transparent;
+                border: none;
+                font-size: 120%;
+                &::before {
+                    content: '-';
+                    display: inline;
+                    padding: 0 0.3em;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
 }
