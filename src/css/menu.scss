@@ -3,20 +3,25 @@
     position: relative;
     z-index: 1;
     .logo-lg {
-        padding: 20px 0 20px 100px;
+        display: table;
         width: 100%;
+        min-height: 90px;
+        &>div {
+            display: table-cell;
+            vertical-align: middle;
+        }
         a {
+            margin-left: 100px;
             font: bold 24px Arial, Helvetica, sans-serif;
             text-decoration: none;
-            overflow: left;
         }
         @media (max-width: 767px) {
             display: none;
         }
         .menu-tel {
+            margin: 0;
             list-style-type: none;
             padding-right: 25px;
-            float: right;
             text-align: right;
             font-weight: bold;
             font-size: 125%;
