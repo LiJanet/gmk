@@ -6,7 +6,7 @@
     "bannerHead": "/img/banner4.jpg",
     "info": {
         "caption": "О компании",
-        "image": "/img/responsive.png",
+        "image": "/img/responsive.jpg",
         "text": [
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex.",
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem modi ullam nam vero cum sed, numquam, facere mollitia dignissimos necessitatibus, aut vitae autem beatae sint voluptas animi odio iste ex.",
@@ -34,18 +34,18 @@
     }],
     "gallery": {
         "slides": [{
-            "src": "/img/gallery/Вивальди.jpg",
+            "src": "/img/gallery/Vivaldy.jpg",
             "alt": "Вивальди",
             "caption": "Вивальди",
             "index": 0,
             "active": "active"
         }, {
-            "src": "/img/gallery/Маяк.jpg",
+            "src": "/img/gallery/Maiak.jpg",
             "alt": "Маяк Минска",
             "caption": "Маяк Минска",
             "index": 1
         }, {
-            "src": "/img/gallery/СОК_на_Шаранговича.jpg",
+            "src": "/img/gallery/SOK_na_Sharangovicha.jpg",
             "alt": "СОК на Шаранговича",
             "caption": "СОК на Шаранговича",
             "index": 2
@@ -54,6 +54,16 @@
             "alt": "Dreamland",
             "caption": "Dreamland",
             "index": 3
+        }, {
+            "src": "/img/gallery/1.jpg",
+            "alt": "Бассейн",
+            "caption": "Бассейн",
+            "index": 4
+        }, {
+            "src": "/img/gallery/2.jpg",
+            "alt": "Склад",
+            "caption": "",
+            "index": 5
         }]
     }
 }
